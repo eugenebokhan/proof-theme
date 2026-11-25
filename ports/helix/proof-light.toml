@@ -1,0 +1,63 @@
+"ui.background" = { bg = "#f5f3ed" }
+"ui.text" = { fg = "#2f312d" }
+"ui.text.focus" = { fg = "#3d755d" }
+"ui.text.inactive" = { fg = "#4b4d48" }
+"ui.gutter" = { bg = "#f5f3ed" }
+"ui.linenr" = { fg = "#8b877c" }
+"ui.linenr.selected" = { fg = "#3d755d" }
+"ui.cursor" = { fg = "#f5f3ed", bg = "#2f312d" }
+"ui.cursor.primary" = { fg = "#f5f3ed", bg = "#3d755d" }
+"ui.cursor.match" = { fg = "#3d755d", bg = "#dce5da" }
+"ui.cursorline.primary" = { bg = "#f0eee8" }
+"ui.selection" = { bg = "#dce5da" }
+"ui.selection.primary" = { bg = "#dce5da" }
+"ui.statusline" = { fg = "#2f312d", bg = "#efede6" }
+"ui.statusline.inactive" = { fg = "#4b4d48", bg = "#efede6" }
+"ui.bufferline" = { fg = "#4b4d48", bg = "#efede6" }
+"ui.bufferline.active" = { fg = "#2f312d", bg = "#f5f3ed" }
+"ui.popup" = { fg = "#2f312d", bg = "#faf9f5" }
+"ui.window" = { fg = "#e4e1d8" }
+"ui.menu" = { fg = "#2f312d", bg = "#faf9f5" }
+"ui.menu.selected" = { fg = "#2f312d", bg = "#dce5da" }
+"ui.virtual.whitespace" = { fg = "#d7d5cd" }
+"ui.virtual.indent-guide" = { fg = "#e4e1d8" }
+"ui.virtual.inlay-hint" = { fg = "#397c80" }
+"diff.plus" = { fg = "#3d755d" }
+"diff.delta" = { fg = "#8b6d24" }
+"diff.minus" = { fg = "#a44b42" }
+"error" = { fg = "#a44b42" }
+"warning" = { fg = "#8b6d24" }
+"info" = { fg = "#486f9b" }
+"hint" = { fg = "#397c80" }
+"attribute" = "#5b65b9"
+"comment" = "#716e64"
+"comment.documentation" = "#5f6b60"
+"constant" = "#87691f"
+"constant.builtin.boolean" = "#a44b42"
+"constant.numeric" = "#a44b42"
+"constructor" = "#3d755d"
+"function" = "#3d755d"
+"function.builtin" = "#3d755d"
+"function.macro" = "#5b65b9"
+"keyword" = "#5b65b9"
+"label" = "#87691f"
+"namespace" = "#87691f"
+"operator" = "#5b65b9"
+"punctuation" = "#4b4d48"
+"punctuation.bracket" = "#2f312d"
+"punctuation.delimiter" = "#4b4d48"
+"string" = "#367478"
+"string.regexp" = "#87691f"
+"constant.character.escape" = "#87691f"
+"tag" = "#3d755d"
+"type" = "#87691f"
+"type.builtin" = "#87691f"
+"type.enum.variant" = "#87691f"
+"variable" = "#2f312d"
+"variable.builtin" = "#5b65b9"
+"variable.parameter" = "#2f312d"
+"variable.other.member" = "#486f9b"
+"markup.heading" = { fg = "#3d755d", modifiers = ["bold"] }
+"markup.bold" = { fg = "#486f9b", modifiers = ["bold"] }
+"markup.italic" = { fg = "#486f9b", modifiers = ["italic"] }
+"markup.link.url" = "#486f9b"

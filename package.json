@@ -1,0 +1,37 @@
+{
+  "name": "proof-theme",
+  "displayName": "Proof Theme",
+  "description": "A warm, green-accented palette for editors and terminals.",
+  "version": "0.1.0",
+  "publisher": "eugenebokhan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eugenebokhan/proof-theme.git"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "scripts": {
+    "build": "bun scripts/build.ts",
+    "check": "bun scripts/build.ts --check",
+    "preview": "bun scripts/preview.ts"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Proof Light",
+        "uiTheme": "vs",
+        "path": "./ports/vscode/proof-light-color-theme.json"
+      },
+      {
+        "label": "Proof Dark",
+        "uiTheme": "vs-dark",
+        "path": "./ports/vscode/proof-dark-color-theme.json"
+      }
+    ]
+  }
+}
